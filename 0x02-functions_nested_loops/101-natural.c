@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "school.h"
 /**
  * main - Entry point
@@ -6,14 +8,6 @@
  */
 int main(void)
 {
-	char *sh = "School";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
 
 	return (0);
 }
